@@ -24,5 +24,4 @@ public class Homework13 {
         System.out.println(blok);
     }
 
-
 }

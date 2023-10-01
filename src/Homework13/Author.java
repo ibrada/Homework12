@@ -18,5 +18,4 @@ public class Author {
 return "Имя " + this.firstname + " Фамилия " + this.surname;
     }
 
-
 }
