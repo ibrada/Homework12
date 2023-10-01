@@ -23,4 +23,6 @@ public class Homework13 {
         System.out.println(fet);
         System.out.println(blok);
     }
+
+
 }
