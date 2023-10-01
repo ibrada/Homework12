@@ -1,12 +1,7 @@
-package Homework12;
+package Homework13;
 
-/*
-Почему IDEA не дает кореектно присвоить тип полю aurhor,
-хотя класс стаким именем создан?
-Изменив тип свойства author на String все начинает работать
-*/
+public class Homework13 {
 
-public class HomeWork12 {
     public static void main(String[] args) {
 
         Book book1 = new Book("1984", "Джорд Оруэлл", 1949);
@@ -22,5 +17,11 @@ public class HomeWork12 {
 
         book2.setYear(2020);
         System.out.println("Переиздание книги Шестой сон в " + book2.getYear());
+
+        System.out.println(book1);
+        System.out.println(book2);
+
+        System.out.println(fet);
+        System.out.println(blok);
     }
 }
