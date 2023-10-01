@@ -1,4 +1,4 @@
-package Homework12;
+package Homework13;
 public class Author {
     private String firstname;
     private String surname;
@@ -12,5 +12,9 @@ public class Author {
     }
     public String getSurname() {
         return surname;
+    }
+
+    public String toString() {
+return "Имя " + this.firstname + " Фамилия " + this.surname;
     }
 }
