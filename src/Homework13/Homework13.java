@@ -1,7 +1,6 @@
 package Homework13;
 
 public class Homework13 {
-
     public static void main(String[] args) {
 
         Book book1 = new Book("1984", "Джорд Оруэлл", 1949);
