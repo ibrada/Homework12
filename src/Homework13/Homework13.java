@@ -1,5 +1,4 @@
 package Homework13;
-
 public class Homework13 {
     public static void main(String[] args) {
 
@@ -17,6 +16,9 @@ public class Homework13 {
 
         System.out.println(book1.equals(book2));
         System.out.println(oruell.equals(verber));
+
+        book1.setYear(2020);
+        book2.setYear(2020);
 
         System.out.println(book1.hashCode());
         System.out.println(book2.hashCode());

@@ -1,7 +1,5 @@
 package Homework13;
-
 import java.util.Objects;
-
 public class Book {
     private String title;
     private String author;
@@ -44,6 +42,6 @@ public class Book {
 
     @Override
     public int hashCode() {
-        return Objects.hash(title, author, year);
+        return Objects.hash(year);
     }
 }

@@ -1,7 +1,5 @@
 package Homework13;
-
 import java.util.Objects;
-
 public class Author {
     private String firstname;
     private String surname;
