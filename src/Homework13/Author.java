@@ -1,5 +1,7 @@
 package Homework13;
+
 import java.util.Objects;
+
 public class Author {
     private String firstname;
     private String surname;
@@ -27,7 +29,7 @@ public class Author {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Author author = (Author) o;
-        return Objects.equals(firstname.length(), author.firstname.length()) && Objects.equals(surname.length(), author.surname.length());
+        return Objects.equals(firstname, author.firstname) && Objects.equals(surname, author.surname);
     }
 
     @Override
